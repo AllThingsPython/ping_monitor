@@ -1,7 +1,5 @@
 #!/bin/bash
 
-tmp_id=`echo $$`
-
 generate_ping_data()	{
 
 packets_sent=`cat ping_file_${tmp_id}.txt | wc -l`
